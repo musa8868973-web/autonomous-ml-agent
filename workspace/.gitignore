@@ -1,0 +1,6 @@
+# Environments
+.env
+__pycache__/
+
+# Local execution workspace
+workspace/
