@@ -1,4 +1,5 @@
 import os
+from src.orchestrator import run_pipeline
 
 def print_banner():
     print("="*50)
@@ -15,10 +16,12 @@ def main():
         print("[Error] Task cannot be empty. Exiting.")
         return
 
-    print(f"\n[Orchestrator] Received task: {user_prompt}")
-    print("[Orchestrator] Routing to Groq Brain... (Logic pending)")
+    print(f"\n[System] Routing to Orchestrator...")
     
-    # TODO: Pass this prompt to src.orchestrator
+    # Core engine ko call kar rahe hain
+    result = run_pipeline(user_prompt)
+    
+    print(f"\n[System] Execution Finished: {result}")
 
 if __name__ == "__main__":
     main()
