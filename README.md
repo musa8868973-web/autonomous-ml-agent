@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center"> 
 
 # 🤖 Autonomous ML-Ops Agent
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 🌌 Vision
+## 🌌 Vision 
 
 Machine Learning pipelines are still assembled by hand: find a dataset, wire up a training script, run it, read the stack trace, patch, repeat.
 
